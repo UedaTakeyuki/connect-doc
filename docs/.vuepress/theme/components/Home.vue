@@ -15,7 +15,7 @@
         id="main-title"
         style="font-family: 'Parisienne', cursive; text-shadow: 2px 2px 2px #aaa; font-size: 250%;"
       > -->
-        <span style="vertical-align: super; font-size: 20%;">Aterier UEDA</span>
+        <span style="vertical-align: super; font-family: 'Parisienne', cursive; text-shadow: 4px 4px 4px #aaa; font-size: 120%;">Aterier Ueda</span>
         <span
           style="font-family: 'Parisienne', cursive; text-shadow: 4px 4px 4px #aaa; font-size: 450%;"
         > 

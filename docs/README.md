@@ -2,8 +2,9 @@
 title: Connect
 description: Koshinto is a complete set of software copy protection and anti piracy library and service for free.Supported architecutres are raspberry pi, Linux, and Mac. This document provide you how to protect your application from unauthorized copies. 
 home: true
+heroImage: "pics/ss.2022-03-09.19.51.33.png"
 heroText: Connect
-tagline: Connect & remotely operate devices inside the Local Network.
+tagline: Remotely operate devices that are inside the Local Network.
 actionText: GET STARTED FOR FREE
 actionLink: https://connect.uedasoft.com
 footer: ©Atelier Ueda
