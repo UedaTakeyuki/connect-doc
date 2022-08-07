@@ -13,7 +13,7 @@ footerLink: https://atelierueda.uedasoft.com/
 <div class="features">
   <div class="feature">
     <h2 style="color: #3a5169;">Remote control of devices connecting to the Internet <b>locally</b>.</h2>
-    けろけろ
+    けろけろぴっぴ
   </div>
   <div class="feature">
     <h2 style="color: #3a5169;">2 types of connection, <b>Fast</b> & <b>Saving</b>.</h2>
@@ -21,5 +21,5 @@ footerLink: https://atelierueda.uedasoft.com/
   <div class="feature">
     <h2 style="color: #3a5169;">Connect only when needed for normally quiet devices.</h2>
     けろけろ
-    </div>
-    </div>
+  </div>
+</div>
