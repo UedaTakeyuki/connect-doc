@@ -12,19 +12,19 @@
         :src="$withBase($site.themeConfig.logo)"
         :alt="$siteTitle"
       >
+<!--      <span
+        v-if="$siteTitle"
+        ref="siteName"
+        class="site-name"
+        :class="{ 'can-hide': $site.themeConfig.logo }"
+        style="vertical-align: super; font-size: 10%;font-family:">Aterier UEDA
+      </span> -->
       <span
         v-if="$siteTitle"
         ref="siteName"
         class="site-name"
         :class="{ 'can-hide': $site.themeConfig.logo }"
-        style="vertical-align: super; font-size: 50%;font-family:">Aterier UEDA
-      </span>
-      <span
-        v-if="$siteTitle"
-        ref="siteName"
-        class="site-name"
-        :class="{ 'can-hide': $site.themeConfig.logo }"
-        style="font-family: 'Parisienne', cursive; text-shadow: 2px 2px 2px #aaa; font-size: 250%;"
+        style="font-family: 'Parisienne', cursive; text-shadow: 2px 2px 2px #aaa; font-size: 150%;"
       > {{ $siteTitle }}</span>
     </RouterLink>
 
