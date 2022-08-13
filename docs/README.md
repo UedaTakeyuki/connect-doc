@@ -4,7 +4,7 @@ description: Koshinto is a complete set of software copy protection and anti pir
 home: true
 heroImage: "pics/ss.2022-03-09.19.51.33.png"
 heroText: Connect
-tagline: Remotely operate devices that are inside the Local Network.
+tagline: P2P connection with your RaspberryPi, ready for you right out of the box.
 actionText: GET STARTED FOR FREE
 actionLink: https://connect.uedasoft.com
 footer: ©Atelier Ueda
@@ -12,8 +12,7 @@ footerLink: https://atelierueda.uedasoft.com/
 ---
 <div class="features">
   <div class="feature">
-    <h2 style="color: #3a5169;">Remote control of devices connecting to the Internet <b>locally</b>.</h2>
-    けろけろぴっぴ
+    <h2 style="color: #3a5169;">Fast and Secure connection</h2>
   </div>
   <div class="feature">
     <h2 style="color: #3a5169;">2 types of connection, <b>Fast</b> & <b>Saving</b>.</h2>
