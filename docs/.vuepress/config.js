@@ -24,7 +24,7 @@ module.exports = {
   themeConfig: {
     sidebar: 'auto',
     nav: [
-      {text: 'Why Connect', link: '/whyConnect/'},
+      {text: 'Why Connect™', link: '/whyConnect/'},
       {text: 'Get Started', link: '/getStarted/'},
       {text: 'Docs', 
        items: [
