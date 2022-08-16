@@ -12,6 +12,8 @@ As the client application runs on the internet device, after the easy installati
 Also, pre-provided applications to use the connection are ready for you out of the box.
 
 ## economical
+If your IoT project is in a region where the cost of a public network is expensive, you want to reduce unnecessary network traffic as much as possible.
+Connect doesn't waste your network bandwidth. On the contrary, we designed it to prevent unnecessary network traffic as much as possible.
 
 ## secure
 
