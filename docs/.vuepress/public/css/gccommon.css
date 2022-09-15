@@ -1,0 +1,77 @@
+/*!
+ * GC common css
+ * ©Atelier UEDA Copyright 2018-
+ */
+
+/* for BS on Android */
+/* http://metrograph.jp/css_android_orange/ */
+.gc-bs-android {
+-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+outline: none !important;
+}
+
+/* for Nav */
+/* slim nav bar of Matelizlized, based following and added some
+https://stackoverflow.com/questions/35552708/is-materialize-navbar-height-adjustment-possible*/
+navbar-fixed {
+    height: 32px;
+    line-height: 32px;
+}
+nav {
+    height: 32px;
+    line-height: 32px;
+}
+nav .nav-wrapper{
+    height: 32px;
+    line-height: 32px;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons, nav a.sidenav-trigger {
+    height: 32px;
+    line-height: 32px;
+    color: white;
+}
+nav .button-collapse i {
+    height: 30px;
+    line-height: 30px;
+}
+nav .brand-logo, nav a.brand-logo{ 
+    font-size: 1.6rem;
+    height: 32px;
+    line-height: 32px;
+    color: white;
+}
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i, nav a.sidenav-trigger, nav a.sidenav-trigger i, nav i.material-icons {
+        height: 32px;
+        line-height: 32px;
+    }
+}
+
+/* for Basic Body structure */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+main {
+  flex: 1 0 auto;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-bottom:250px;
+  background-color: rgb(249,249,249) !important;
+}
+
+/* work arond for this issue
+   https://github.com/Dogfalo/materialize/issues/3844 */
+.navbar-fixed {
+  z-index: 999;
+}
