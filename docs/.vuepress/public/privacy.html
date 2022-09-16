@@ -61,8 +61,16 @@
       </p>
 
       <h4> 1. login account </h4>
-      The common login system of Atelier Ueda, which also uses Connect, is based on the [firebase auth](https://firebase.google.com/docs/auth).
-      
+      <p class="left-align light">
+      The standard login system of Atelier Ueda, which Connect also uses, is implemented using the service <a href="https://firebase.google.com/docs/auth"> Firebase Auth</a> provided by Google for blocking illegal use and password stealing.
+      Inside our service, we don't use your login account and password directly.
+      Instead, we use the random string provided by Firebase as your credential information. Due to the separation of login service from our service, There is no possibility that our programmers will look at  your login account or password unintentionally.
+      </p>
+
+      <p class="left-align light">
+        Although we don't use your login account and password directly, we can still get your login account information from the API provided by Firebase. 
+        When we need to contact you, we will get your information in the manner described above and contact you.
+      </p>
 
       <p class="left-align light">
       CONNECT’s main activity is to provide a remote CONNECTing service which show the latest picture and data from your device on website https://CONNECT.uedasoft.com, https://CONNECT3.uedasoft.com, and to some accessory sub-domains such as https://atelierueda.uedasoft.com, or through its mobile application (hereafter ‘Services’).
