@@ -26,12 +26,12 @@ module.exports = {
     nav: [
       {text: 'Why Connect™', link: '/whyConnect/'},
       {text: 'Get Started', link: '/getStarted/'},
-      {text: 'Docs', 
+/*      {text: 'Docs', 
        items: [
         {text: ''},
        ]
       },
-
+*/
     ],
     lastUpdated: 'Last Updated', // string | boolean
   }
