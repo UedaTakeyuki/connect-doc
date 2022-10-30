@@ -13,6 +13,7 @@ footerLink: https://atelierueda.uedasoft.com/
 <div class="features">
   <div class="feature">
     <h2 style="color: #3a5169;">Fast and Secure connection</h2>
+    Connect™️ provide a <b>direct connection</b> between your <b>Raspberry Pi</b> and your <b>Web Browser</b>. Because the connection is direct, there are no intermediate server, so connection is fast and low risk of being unintentionally connected by a malicious third party. In technical terms, this connection is what's called a <b>websocket's detachannel</b>.
   </div>
   <div class="feature">
     <h2 style="color: #3a5169;">2 types of connection, <b>Fast</b> & <b>Saving</b>.</h2>
