@@ -35,8 +35,25 @@ This script downloads the appropriate version of the application **connect clien
 
 ### 3. Get deviceID
 
-Log in or sign in to [Connect](https://connect.uedasoft.com/) service in your browser. You will see something like following:
+Log in or sign in to [Connect](https://connect.uedasoft.com/) service in your browser. You will see something like the following:
 
 ![](./ss.2022-10-31.20.46.50.png)
 
-Click on the "V" shaped dropdown menu icon on the far right of the middle row indicated  "Connection: Not Connected". The meaning of "Connection: Not Connected" will be explained in detail later.
+Click the **"V"** shaped dropdown menu icon on the far right of the middle row indicating "Connection: Not Connected". The meaning of this row will be explained later.
+
+Then, you will see a menu dropped down as follows:
+
+![](./ss.2022-10-31.20.47.06.png)
+
+A new menu written as "Selected Device: Device Not Selected" will appear. 
+Click the **"Select"** round blue button on the far right of this menu. 
+The meaning of this menu will be explained later.
+
+Then, you will see a dialog popped as follows:
+
+![](./ss.2022-08-10.13.56.36.png)
+
+Click the **"REQUEST ONE"** round blue button lower left of this dialog. The detail of this dialog will be explained later.
+
+Then the 6-digit words will appear, which is a brand-new created device ID for you. Note it and return to the Raspberry Pi which you've downloaded the **connectcli**. 
+
