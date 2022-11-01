@@ -31,9 +31,9 @@ Then run ``setup.sh `` script
 ./setup.sh
 ```
 
-This script downloads the appropriate version of the application **connect client** and makes an appropriate .service file of the unit definition of Linux service. 
+This script downloads the appropriate version of the application named **connectcli** and makes an appropriate .service file of the unit definition of Linux service. 
 
-### 3. Get deviceID
+### 3. Get device ID
 
 Log in or sign in to [Connect](https://connect.uedasoft.com/) service in your browser. You will see something like the following:
 
@@ -55,5 +55,19 @@ Then, you will see a dialog popped as follows:
 
 Click the **"REQUEST ONE"** round blue button lower left of this dialog. The detail of this dialog will be explained later.
 
-Then the 6-digit words will appear, which is a brand-new created device ID for you. Note it and return to the Raspberry Pi which you've downloaded the **connectcli**. 
+Then the 6-digit words will appear, which is a brand-new created device ID for you. Note it and get back to the Raspberry Pi which you've downloaded the **connectcli**. 
 
+### 4. Set the device ID to the connectcli.
+Get back to the Raspberry Pi and the directory where you set up the application **connectcli**. Then run connectcli with the option ``-activate`` followed by the deviceID you've gotten above. With the deviceID you've gotten as XXXXXX, run as followd:
+
+```bash:
+# You should replace XXXXXX with the deviceID you've obtain
+  ./connectcli -activate XXXXXX
+```
+
+For example, if you have gotten **vogQLP** as your device ID, run as follows.
+
+```bash:
+# You should replace vogQLP with the deviceID you've obtain
+  ./connectcli -activate vogQLP
+```
