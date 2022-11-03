@@ -57,7 +57,7 @@ Click the **"REQUEST ONE"** round blue button lower left of this dialog. The det
 
 Then the 6-digit words will appear, which is a brand-new created device ID for you. Note it and get back to the Raspberry Pi which you've downloaded the **connectcli**. 
 
-### 4. Set the device ID to the connectcli.
+### 4. Activate connectcli with the device ID.
 Get back to the Raspberry Pi and the directory where you set up the application **connectcli**. Then run connectcli with the option ``-activate`` followed by the deviceID you've gotten above. With the deviceID you've gotten as XXXXXX, run as followd:
 
 ```bash:
@@ -71,3 +71,16 @@ For example, if you have gotten **vogQLP** as your device ID, run as follows.
 # You should replace vogQLP with the deviceID you've obtain
   ./connectcli -activate vogQLP
 ```
+
+### 5. Operation check of connectcli
+
+```bash:
+pi@raspberrypi:~/connectcli $ ./connectcli 
+2022/11/03 10:26:55 ERROR! activate first!
+```
+
+```bash:
+pi@raspberrypi:~/connect_cli $ ./connect_cli -activate vogQLP
+2022/11/03 11:13:26 Error:  already activated
+```
+### 6. Set auto-start
