@@ -83,4 +83,9 @@ pi@raspberrypi:~/connectcli $ ./connectcli
 pi@raspberrypi:~/connect_cli $ ./connect_cli -activate vogQLP
 2022/11/03 11:13:26 Error:  already activated
 ```
+
+```bash:
+pi@raspberrypi:~/connectcli $ ./connectcli -activate ogQLP
+2022/11/03 13:44:14.763122 id.go:68: mismatch between encode and decode: ogQLP start vogQLP re-encoded. result: [1]
+```
 ### 6. Set auto-start

@@ -60,7 +60,7 @@
       v-if="data.footer"
       class="footer"
     >
-      {{ data.footer }}
+      <a :href='data.footerLink'>{{ data.footer }}</a>
     </div>
 
     <Content
